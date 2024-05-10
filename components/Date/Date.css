@@ -1,0 +1,199 @@
+.date-button {
+    rotate: 5deg;
+}
+
+#date-background {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdate%2Fdate-background.png?alt=media&token=1f904693-1628-478f-ae76-68a9a021a565);
+}
+
+#date-card {
+    position: fixed;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdate%2Fdate-card-background.png?alt=media&token=b4f85b6d-0a7a-4c50-bd0a-9ee723c5437e);
+}
+
+#date-card-message {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdate%2Fdate-card-message.png?alt=media&token=5b0703eb-87e0-4648-a863-dec7c3e12f87);
+}
+
+#date-card-day {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdate%2Fdate-day-text.png?alt=media&token=49576818-d7c9-47b6-921c-6635f73a4a82);
+}
+
+.date-card-content {
+    position: fixed;
+    display: grid;
+}
+
+#date-yes-button {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdate%2Fdate-yes-button.png?alt=media&token=b2de7173-1574-482c-b5b8-e3725ce482d1);
+    align-self: end;
+}
+
+#date-no-button {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdate%2Fdate-no-buton.png?alt=media&token=4bb8f83d-bd15-4bb0-8e2c-44b6c783c99c);
+    align-self: start;
+}
+
+#day-input {
+    text-align: center;
+    border: #5c7999 2px solid;
+    border-radius: 5px;
+    color: #49607a;
+    padding: 1px;
+    align-self: end;
+}
+
+.day-submit-button {
+    background-color: #ffffff;
+    border: #5c7999 2px solid;
+    border-radius: 5px;
+    color: #5c7999;
+    align-self: start;
+}
+
+#submit-button {
+    background-color: #ffffff;
+    border: #5c7999 2px solid;
+    border-radius: 5px;
+    color: #5c7999;
+}
+
+#date-back-button {
+    align-self: center;
+}
+
+#date-card-food {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdate%2Fdate-food-content.png?alt=media&token=95a9f4ad-9ec2-4cad-8ba3-bbe2040e7e85);
+    grid-gap: 0;
+    grid-template-columns: 55% 45%;
+}
+
+#date-card-dessert {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdate%2Fdate-dessert-content.png?alt=media&token=fb056530-d676-402f-908b-58576ca7394f);
+    grid-gap: 0;
+    grid-template-columns: 55% 45%;
+}
+
+#date-card-activity {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdate%2Fdate-activity-content.png?alt=media&token=8c870498-48c1-4c7b-b45c-6bdfd81f2c74);
+    grid-gap: 0;
+    grid-template-columns: 55% 45%;
+}
+
+#date-card-thankyou {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdate%2Fdate-thankyou-text.png?alt=media&token=31b1c377-48ac-42f9-a057-5432cb9f40ff);
+}
+
+#date-checkbox {
+    rotate: 5deg;
+    display: grid;
+    justify-self: center;
+}
+
+#date-checkbox input {
+    margin: 0;
+}
+
+@media (orientation: portrait) {
+    .date-button {
+        width: 10vw;
+        height: 5vw;
+    }
+
+    .date-card-content {
+        width: 75vw;
+        height: 75vw;
+        grid-gap: 5vw;
+    }
+
+    #date-yes-button {
+        margin-left: 20vw;
+    }
+
+    #date-no-button {
+        margin-left: 19vw;
+    }
+
+    #day-input {
+        height: 5vw;
+        width: 20vw;
+        margin-left: 1vw;
+    }
+
+    .day-submit-button {
+        height: 5vw;
+        width: 20vw;
+    }
+
+    #submit-button {
+        height: 5vw;
+        width: 40%;
+        margin-left: 1vw;
+    }
+
+    #date-back-button {
+        margin-top: 15vw;
+    }
+
+    #date-checkbox {
+        grid-gap: 3vw;
+        margin-bottom: 1vw;
+    }
+
+    #date-checkbox input {
+        width: 2vw;
+        height: 2vw;
+    }
+}
+
+@media (orientation: landscape) {
+    .date-button {
+        width: 10vh;
+        height: 5vh;
+    }
+
+    .date-card-content {
+        width: 75vh;
+        height: 75vh;
+        grid-gap: 5vh;
+    }
+
+    #date-yes-button {
+        margin-left: 20vh;
+    }
+
+    #date-no-button {
+        margin-left: 19vh;
+    }
+
+    #day-input {
+        height: 5vh;
+        width: 20vh;
+        margin-left: 1vh;
+    }
+
+    .day-submit-button {
+        height: 5vh;
+        width: 20vh;
+    }
+
+    #submit-button {
+        height: 5vh;
+        width: 40%;
+        margin-left: 1vh;
+    }
+
+    #date-back-button {
+        margin-top: 15vh;
+    }
+
+    #date-checkbox {
+        grid-gap: 3vh;
+        margin-bottom: 1vh;
+    }
+
+    #date-checkbox input {
+        width: 2vh;
+        height: 2vh;
+    }
+}

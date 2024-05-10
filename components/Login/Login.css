@@ -1,0 +1,34 @@
+#login-card {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Flogin%2Flogin-card-background.png?alt=media&token=aea1bb08-eefe-4784-96d9-4af8a532463c);
+}
+
+#login-form {
+    margin-top: 30%;
+    display: grid;
+    height: 75%;
+    width: 50%;
+    align-items: center;
+    grid-template-rows: 20% 20% 20% 40%;
+}
+
+.login-input {
+    height: 1.5rem;
+    text-align: center;
+    border: #5c7999 2px solid;
+    border-radius: 5px;
+    color: #49607a;
+}
+
+.login-button {
+    height: calc(1.5rem + 6px);
+    background-color: #7aa1cc;
+    border: #5c7999 2px solid;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+#login-status-text {
+    text-align: center;
+    color: #e61717;
+    align-self: start;
+}

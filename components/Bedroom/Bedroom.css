@@ -1,0 +1,40 @@
+.bedroom-button {
+    width: 8.5%;
+    height: 8.5%;
+}
+
+#bedroom-background {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fbedroom%2Fbedroom-background.png?alt=media&token=2d4dcfa3-313d-4d1e-b1f9-e5946e9dd190");
+    animation: fade-in-down 0.5s;
+}
+
+#calendar-button {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fbedroom%2Fcalendar-button.png?alt=media&token=73d098f4-ebaf-4486-9dc4-8fc5145f1901");
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#date-button {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fbedroom%2Fdate-button.png?alt=media&token=5801eb16-9eda-4b84-8fb3-4a8fe1f57c4e");
+    margin-top: 10%;
+    margin-left: 36.5%;
+}
+
+#hotpot-button {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fbedroom%2Fhotpot-button.png?alt=media&token=a575dbdb-9293-4e3b-a66b-89b87c8e69a9");
+    margin-top: 10%;
+    margin-left: 4.5%;
+}
+
+#drive-button {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fbedroom%2Fdrive-button.png?alt=media&token=898299b1-ef18-498a-a44d-310e3af0c316);
+    margin-left: 12%;
+    margin-bottom: 1%;
+}
+
+#pooh-button {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fbedroom%2Fpooh.png?alt=media&token=b52c055e-00de-4a7b-a118-002a22ce9755);
+    width: 6%;
+    height: 7.2%;
+    margin-bottom: 30%;
+}

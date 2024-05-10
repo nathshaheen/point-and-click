@@ -1,0 +1,67 @@
+#calendar-background {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fcalendar%2Fcalendar-background.png?alt=media&token=7468376c-148c-4e39-a493-9d58ec172bd0");
+    animation: fade-in-right 0.5s;
+}
+
+#calendar-card {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fcalendar%2Fcalendar-card-background.png?alt=media&token=7bfda9fc-e813-4d8e-89b9-8fbb87cd3731);
+}
+
+#calendar-flowers {
+    position: fixed;
+    transition: opacity 5s;
+    opacity: 0;
+}
+
+#calendar-flowers.fade-in {
+    opacity: 1;
+}
+
+#calendar-fireworks {
+    position: fixed;
+    transition: opacity 2s;
+    opacity: 0;
+}
+
+#calendar-fireworks.fade-in {
+    opacity: 1;
+}
+
+#calendar-text {
+    position: fixed;
+    background-color: #f7f7f7;
+    padding: 2%;
+    border: #1b6e2e 2px solid;
+    border-radius: 5px;
+    transition: opacity 2s;
+    opacity: 0;
+    max-width: 50%;
+}
+
+#calendar-text.fade-in {
+    opacity: 1;
+}
+
+
+
+@media (orientation: portrait) {
+    #calendar-card {
+        padding-top: 25vw;
+    }
+
+    #calendar-flowers {
+        margin-top: 25vw;
+    }
+}
+
+
+
+@media (orientation: landscape) {
+    #calendar-card {
+        padding-top: 25vh;
+    }
+
+    #calendar-flowers {
+        margin-top: 25vh;
+    }
+}

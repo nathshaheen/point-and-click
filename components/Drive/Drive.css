@@ -1,0 +1,129 @@
+.drive-button {
+    position: fixed;
+}
+
+#drive-background {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdrive%2Fdrive-background.png?alt=media&token=8ef50123-006b-4023-928c-5c85a56d8430);
+    animation: fade-in-right 0.5s;
+}
+
+#drive-card-side {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdrive%2Fdrive-card-background.png?alt=media&token=b0f6e8a4-29b2-4b1f-b770-4b3ec96dad0e);
+    display: flex;
+}
+
+#drive-card-front {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdrive%2Fdrive-card-front-view-background.png?alt=media&token=0824c96a-70f8-4feb-9edd-0706c8cc5d11);
+}
+
+#drive-card-back {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdrive%2Fdrive-card-back-view-background.png?alt=media&token=c7f2163a-09ae-452e-81e1-aa5e63c92070);
+}
+
+#drive-front-l-plate {
+    display: none;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdrive%2Fdrive-l-plate.png?alt=media&token=3595edb4-6d0f-4234-adf4-c77873174669);
+}
+
+#drive-back-l-plate {
+    display: none;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fdrive%2Fdrive-l-plate.png?alt=media&token=3595edb4-6d0f-4234-adf4-c77873174669);
+}
+
+#drive-front-back-button {
+    position: fixed;
+    background-color: #ffffff;
+    border: #404040 2px solid;
+    border-radius: 5px;
+    color: #404040;
+}
+
+@media (orientation: portrait) {
+    .drive-button {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    #drive-side-front-button {
+        margin-top: 40vw;
+        margin-right: 55vw;
+    }
+
+    #drive-side-back-button {
+        margin-top: 40vw;
+        margin-left: 55vw;
+    }
+
+    #drive-front-button {
+        margin-top: 32.5vw;
+    }
+
+    #drive-back-button {
+        margin-top: 20vw;
+    }
+
+    #drive-front-l-plate {
+        width: 5vw;
+        height: 5vw;
+        margin-top: 33vw;
+        margin-left: 12.25vw;
+    }
+
+    #drive-back-l-plate {
+        width: 5vw;
+        height: 5vw;
+        margin-top: 17.75vw;
+        margin-left: 17.5vw;
+    }
+
+    #drive-front-back-button {
+        margin-bottom: 40vw;
+        height: 5vw;
+        width: 20vw;
+    }
+}
+
+@media (orientation: landscape) {
+    .drive-button {
+        width: 20vh;
+        height: 20vh;
+    }
+
+    #drive-side-front-button {
+        margin-top: 40vh;
+        margin-right: 55vh;
+    }
+
+    #drive-side-front-button {
+        margin-top: 40vh;
+        margin-left: 55vh;
+    }
+
+    #drive-front-button {
+        margin-top: 32.5vh;
+    }
+
+    #drive-back-button {
+        margin-top: 20vh;
+    }
+
+    #drive-front-l-plate {
+        width: 5vh;
+        height: 5vh;
+        margin-top: 33vh;
+        margin-left: 12.25vh;
+    }
+
+    #drive-back-l-plate {
+        width: 5vh;
+        height: 5vh;
+        margin-top: 17.75vh;
+        margin-left: 17.5vh;
+    }
+
+    #drive-front-back-button {
+        margin-bottom: 40vh;
+        height: 5vh;
+        width: 20vh;
+    }
+}

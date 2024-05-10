@@ -1,0 +1,211 @@
+#hotpot-background {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fhotpot%2Fhotpot-background.png?alt=media&token=fe9af151-5faf-417d-8847-04eb43624178);
+    animation: fade-in-right 0.5s;
+}
+
+#hotpot-card {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fhotpot%2Fhotpot-card-background.png?alt=media&token=8ff85e74-6c6e-493c-bf5b-56597c4f5a75);
+    display: flex;
+}
+
+#soup-button {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fhotpot%2Fsoup-button.png?alt=media&token=008d059f-db5c-4439-bace-eca98189fa5f);
+    margin-top: 75%;
+    margin-right: 1%;
+    width: 18%;
+    height: 18%;
+    transition: opacity 1s;
+    opacity: 1;
+}
+
+#soup-button.fade-out {
+    opacity: 0;
+}
+
+.ingredient {
+    margin-left: 2%;
+}
+
+#coriander-button {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fhotpot%2Fcoriander-button.png?alt=media&token=9897bcc1-3c64-43fe-9c4f-9f4efbca0733);
+    margin-top: 75%;
+    margin-left: 4.1%;
+    width: 21%;
+    height: 24%;
+    transition: opacity 1s;
+    opacity: 1;
+}
+
+#coriander-button.fade-out {
+    opacity: 0;
+}
+
+#mushroom-button {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fhotpot%2Fmushroom-button.png?alt=media&token=ea91b879-0727-406a-a301-6161027519d1);
+    margin-top: 75.2%;
+    margin-left: 3%;
+    margin-right: 1%;
+    width: 20%;
+    height: 23.6%;
+    transition: opacity 1s;
+    opacity: 1;
+}
+
+#mushroom-button.fade-out {
+    opacity: 0;
+}
+
+#beef-button {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fhotpot%2Fbeef-button.png?alt=media&token=a97b73cc-2e28-4831-8613-5530424a81f6);
+    margin-top: 75.1%;
+    margin-left: 5%;
+    margin-right: 1%;
+    width: 17.2%;
+    height: 23.6%;
+    transition: opacity 1s;
+    opacity: 1;
+}
+
+#beef-button.fade-out {
+    opacity: 0;
+}
+
+#overlay {
+    position: fixed;
+    display: flex;
+}
+
+#soup {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fhotpot%2Fsoup.png?alt=media&token=c5858eb9-b73c-43c8-9a03-523fc64e661e);
+    position: absolute;
+    width: 80%;
+    height: 92.5%;
+    margin-left: 15.5%;
+    margin-top: 3.1%;
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+#soup.fade-in {
+    opacity: 1;
+}
+
+#coriander {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fhotpot%2Fcoriander.png?alt=media&token=4a24d853-b1a9-44c1-8f50-2c84725f3005);
+    position: absolute;
+    width: 80%;
+    height:90%;
+    margin-left: 13%;
+    margin-top: 4.5%;
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+#coriander.fade-in {
+    opacity: 1;
+}
+
+#mushroom {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fhotpot%2Fmushroom.png?alt=media&token=e4c58161-661a-4e8b-b778-bb25f57eb32c);
+    position: absolute;
+    width: 75%;
+    height: 82%;
+    margin-left: 17%;
+    margin-top: 4%;
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+#mushroom.fade-in {
+    opacity: 1;
+}
+
+#beef {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fhotpot%2Fbeef.png?alt=media&token=6e79c3b7-7316-4018-ac00-2ce0017946bb);
+    position: absolute;
+    width: 80%;
+    height: 85%;
+    margin-left: 22.5%;
+    margin-top: 5%;
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+#beef.fade-in {
+    opacity: 1;
+}
+
+#message {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#message.fade-in {
+    opacity: 1;
+}
+
+#message.fade-out {
+    opacity: 0;
+}
+
+#message-text {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fhotpot%2Fmessage.png?alt=media&token=ad3c5a9e-3447-461f-a921-540fc55db45c);
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+#yes-button {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fhotpot%2Fhotpot-yes-button.png?alt=media&token=67d1c453-d9e1-4883-8994-2a92ea1dc0a5);
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    margin-left: 25%;
+    margin-top: 45%;
+}
+
+#no-button {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fhotpot%2Fhotpot-no-button.png?alt=media&token=6d79836e-9509-40fa-b8c5-86e81de4bb16);
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    left: 55%;
+    margin-top: 45%;
+}
+
+#back-button {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/maze-heidi.appspot.com/o/images%2Fhotpot%2Fback-button.png?alt=media&token=19493d88-463f-4dee-a5d2-64f95e15abc1);
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    margin-left: 40%;
+    margin-top: 57.5%;
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+#back-button.fade-in {
+    opacity: 1;
+}
+
+
+
+@media (orientation: portrait) {
+    #overlay {
+        width: 75vw;
+        height: 56vw;
+        margin-bottom: 19vw;
+    }
+}
+
+
+
+@media (orientation: landscape) {
+    #overlay {
+        width: 75vh;
+        height: 56vh;
+        margin-bottom: 19vh;
+    }
+}
