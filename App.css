@@ -1,0 +1,183 @@
+/*@font-face {*/
+/*    font-family: 'kalnia-regular';*/
+/*    src: local('kalnia-regular'), url(assets/fonts/Kalnia_Expanded-Regular.ttf) format('ttf');*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'kalnia-medium';*/
+/*    src: local('kalnia-medium'), url(assets/fonts/Kalnia_Expanded-Medium.ttf) format('ttf');*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'kalnia-bold';*/
+/*    src: local('kalnia-bold'), url(assets/fonts/Kalnia_Expanded-Bold.ttf) format('ttf');*/
+/*}*/
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-3px); }
+}
+
+/*@keyframes fade-in {*/
+/*    0% {*/
+/*        opacity: 0;*/
+/*    }*/
+/*    100% {*/
+/*        opacity: 1;*/
+/*    }*/
+/*}*/
+
+body {
+    position: fixed;
+    margin: 0;
+    background-color: #323232;
+}
+
+.border {
+    box-sizing: border-box;
+    border: 2px #1a1a1a solid;
+}
+
+.bounce {
+    animation: bounce 1s infinite;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.contain {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.pink-text {
+    font-family: "kalnia-regular", "serif";
+    font-size: small;
+    color: #a68da0;
+    text-align: center;
+}
+
+.green-text {
+    font-family: "kalnia-regular", "serif";
+    font-size: small;
+    color: #1b6e2e;
+    text-align: center;
+}
+
+/*
+ *
+ * Responsive - Portrait
+ *
+ */
+@media (orientation: portrait) {
+    .card {
+        width: 75vw;
+        height: 75vw;
+    }
+
+    .responsive-text {
+        font-size: 3vw;
+    }
+
+/*    @keyframes fade-in-down {*/
+/*        0% {*/
+/*            opacity: 0;*/
+/*            transform: translateY(100vw);*/
+/*        }*/
+/*        100% {*/
+/*            opacity: 1;*/
+/*            transform: translateY(0);*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes fade-in-right {*/
+/*        0% {*/
+/*            opacity: 0;*/
+/*            transform: translateX(100vw);*/
+/*        }*/
+/*        100% {*/
+/*            opacity: 1;*/
+/*            transform: translateX(0);*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes fade-in-left {*/
+/*        0% {*/
+/*            opacity: 0;*/
+/*            transform: translateX(-100vw);*/
+/*        }*/
+/*        100% {*/
+/*            opacity: 1;*/
+/*            transform: translateX(0);*/
+/*        }*/
+/*    }*/
+
+    .background {
+        width: 100vw;
+        height: 100vw;
+    }
+}
+
+/*
+ *
+ * Responsive - Landscape
+ *
+ */
+@media (orientation: landscape) {
+    .card {
+        width: 75vh;
+        height: 75vh;
+    }
+
+    .responsive-text {
+        font-size: 3vh;
+    }
+
+/*    @keyframes fade-in-down {*/
+/*        0% {*/
+/*            opacity: 0;*/
+/*            transform: translateY(100vh);*/
+/*        }*/
+/*        100% {*/
+/*            opacity: 1;*/
+/*            transform: translateY(0);*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes fade-in-right {*/
+/*        0% {*/
+/*            opacity: 0;*/
+/*            transform: translateX(100vh);*/
+/*        }*/
+/*        100% {*/
+/*            opacity: 1;*/
+/*            transform: translateX(0);*/
+/*        }*/
+/*    }*/
+
+/*    @keyframes fade-in-left {*/
+/*        0% {*/
+/*            opacity: 0;*/
+/*            transform: translateX(-100vh);*/
+/*        }*/
+/*        100% {*/
+/*            opacity: 1;*/
+/*            transform: translateX(0);*/
+/*        }*/
+/*    }*/
+
+    .background {
+        width: 100vh;
+        height: 100vh;
+    }
+}
